@@ -1,3 +1,2 @@
 FROM plexinc/pms-docker:plexpass
-RUN chmod 000 '/usr/lib/plexmediaserver/Plex Relay'
-
+RUN echo "chmod 000 '/usr/lib/plexmediaserver/Plex Relay'" >> /installBinary.sh
